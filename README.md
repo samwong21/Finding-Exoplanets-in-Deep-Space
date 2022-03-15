@@ -22,6 +22,7 @@ Instructions:
 5) Using the graph of scores, choose the best depth and number of neighbors for your decision tree and knn model.
 6) Load or update a new instance of star_data with your train data csv file and specify the parameters d and n, with the best depth and number of neighbors respectively. 
 7) Running the method plot_tree() from the star_data class will automatically split your train data into further train and faux test data, train the decision tree model, and visualize the branches.
+    <img src=https://user-images.githubusercontent.com/97067377/158476277-bd47642b-d46a-42bd-b9b1-fc692c24a4e8.jpg width="200"/>
     ![exotree](https://user-images.githubusercontent.com/97067377/158476277-bd47642b-d46a-42bd-b9b1-fc692c24a4e8.jpg =250x250)
 
 9) Running the method fit_knn() from the star_data class will automatically split your train data into further train and faux test data and then train the knn algorithm.
