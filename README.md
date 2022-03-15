@@ -18,10 +18,17 @@ Instructions:
 1) Load data file containing star light data. Each star should have 3197 instances where its light intensity is recorded. 
 2) Load the train data csv file as an instance of the star_data class.
 3) Run plot_tree_scores (depths = ), with depths being a numpy array of different depths to help find the best depth for the decision tree model. Default is 1 through 10.
-4) Run plot_knn_scores ( n_neighbors = ), with n_neighbors being a numpy array of different number of neighbors to consider to find the best number of neighbors for the K-nearest neighbors model. Default is 1 through 20.
-5) Using the graph of scores, choose the best depth and number of neighbors for your decision tree and knn model.
-6) Load or update a new instance of star_data with your train data csv file and specify the parameters d and n, with the best depth and number of neighbors respectively. 
-7) Running the method plot_tree() from the star_data class will automatically split your train data into further train and faux test data, train the decision tree model, and visualize the branches.
+  
+  <img src=https://user-images.githubusercontent.com/97067377/158477906-da56888e-a922-4074-a734-6729ab98e5f4.jpg width="400"/>
+  
+5) Run plot_knn_scores ( n_neighbors = ), with n_neighbors being a numpy array of different number of neighbors to consider to find the best number of neighbors for the K-nearest neighbors model. Default is 1 through 20.
+
+  <img src=https://user-images.githubusercontent.com/97067377/158477974-2ba6769f-d50f-4c4c-ae62-8e741b19f96a.jpg width="400"/>
+ 
+
+7) Using the graph of scores, choose the best depth and number of neighbors for your decision tree and knn model.
+8) Load or update a new instance of star_data with your train data csv file and specify the parameters d and n, with the best depth and number of neighbors respectively. 
+9) Running the method plot_tree() from the star_data class will automatically split your train data into further train and faux test data, train the decision tree model, and visualize the branches.
    
    
    <img src=https://user-images.githubusercontent.com/97067377/158476277-bd47642b-d46a-42bd-b9b1-fc692c24a4e8.jpg width="400"/>
