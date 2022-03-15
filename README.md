@@ -1,14 +1,11 @@
 
 ## Project Name: Finding exoplanets using Star Flux data from NASA
+**Group Members: Samantha Wong, Megha Velakacharla, Lumyah Habib**
 
 
   <img src=https://user-images.githubusercontent.com/97067377/158479416-0326f0d0-ce97-4ef2-9953-b000126180b0.jpg width=1000/>
 
 
-
-
-
-**Group Members: Samantha Wong, Megha Velakacharla, Lumyah Habib**
 
 **Description:**
 
