@@ -15,7 +15,8 @@ Package Installation:
 Packages are listed at top of py file, copy and paste them to run.
 
 Instructions:
-Load data file containing star 
+1) Load data file containing star light data. Each star should have 3197 instances where its light intensity is recorded. 
+2) 
 
 
 
