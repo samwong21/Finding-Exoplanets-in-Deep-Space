@@ -12,6 +12,12 @@ Data set link: https://www.kaggle.com/keplersmachines/kepler-labelled-time-serie
 This is a public dataset from Kaggle containing cleaned data from observations made by the NASA Kepler space telescope. There are 68 notebooks of code, using different methods of machine learning to analyze the data.
 
 Package Installation:
-Packages are already imported through the py file. 
+Packages are listed at top of py file, copy and paste them to run.
+
+Instructions:
+Load data file containing star 
+
+
+
 
 
