@@ -16,7 +16,20 @@ Packages are listed at top of py file, copy and paste them to run.
 
 Instructions:
 1) Load data file containing star light data. Each star should have 3197 instances where its light intensity is recorded. 
-2) 
+2) Load the train data csv file as an instance of the star_data class.
+3) Run plot_tree_scores (depths = ), with depths being a numpy array of different depths to help find the best depth for the decision tree model. Default is 1 through 10.
+4) Run plot_knn_scores ( n_neighbors = ), with n_neighbors being a numpy array of different number of neighbors to consider to find the best number of neighbors for the K-nearest neighbors model. Default is 1 through 20.
+5) Using the graph of scores, choose the best depth and number of neighbors for your decision tree and knn model.
+6) Load or update a new instance of star_data with your train data csv file and specify the parameters d and n, with the best depth and number of neighbors respectively. 
+7) Running the method plot_tree() from the star_data class will automatically split your train data into further train and faux test data, train the decision tree model, and visualize the branches.
+8) Running the method fit_knn() from the star_data class will automatically split your train data into further train and faux test data and then train the knn algorithm.
+9) Use the all_tree_scores() and all_knn_scores() method in star_data class to print the accuracy scores of your models againist the faux test data in order to check for overfitting. 
+10) Load your test data csv into a pandas dataframe using pd.read_csv('x').
+11) Split your test data into predictor variables and outcome variable using exoTest.drop(['LABEL'], axis=1) for the predictor variables and exoTest['LABEL'] for your outcome variable.
+12) Now insert the predictions your models made about the test data into the test data dataframe using 
+  exoTest.insert(1, "Exoplanet Prediction by Tree", exo_best.fit_tree().predict(X1))
+  exoTest.insert(2, "Exoplanet Prediction by Knn", exo_best.fit_knn().predict(X1))
+13) Now return the test data dataframe to view the predictions. 
 
 
 
