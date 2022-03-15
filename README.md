@@ -30,6 +30,7 @@ Instructions:
   **exoTest.insert(1, "Exoplanet Prediction by Tree", exo_best.fit_tree().predict(X1))**
   **exoTest.insert(2, "Exoplanet Prediction by Knn", exo_best.fit_knn().predict(X1))**
 13) Now return the test data dataframe to view the predictions. 
+    ![Output Dataframe](exoDF.jpg)   
 
 
 
