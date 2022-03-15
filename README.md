@@ -25,10 +25,10 @@ Instructions:
 8) Running the method fit_knn() from the star_data class will automatically split your train data into further train and faux test data and then train the knn algorithm.
 9) Use the all_tree_scores() and all_knn_scores() method in star_data class to print the accuracy scores of your models againist the faux test data in order to check for overfitting. 
 10) Load your test data csv into a pandas dataframe using pd.read_csv('x').
-11) Split your test data into predictor variables and outcome variable using exoTest.drop(['LABEL'], axis=1) for the predictor variables and exoTest['LABEL'] for your outcome variable.
+11) Split your test data into predictor variables and outcome variable using **exoTest.drop(['LABEL'], axis=1)** for the predictor variables and **exoTest['LABEL']** for your outcome variable.
 12) Now insert the predictions your models made about the test data into the test data dataframe using 
-  exoTest.insert(1, "Exoplanet Prediction by Tree", exo_best.fit_tree().predict(X1))
-  exoTest.insert(2, "Exoplanet Prediction by Knn", exo_best.fit_knn().predict(X1))
+  **exoTest.insert(1, "Exoplanet Prediction by Tree", exo_best.fit_tree().predict(X1))**
+  **exoTest.insert(2, "Exoplanet Prediction by Knn", exo_best.fit_knn().predict(X1))**
 13) Now return the test data dataframe to view the predictions. 
 
 
