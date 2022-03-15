@@ -22,11 +22,13 @@ Instructions:
 5) Using the graph of scores, choose the best depth and number of neighbors for your decision tree and knn model.
 6) Load or update a new instance of star_data with your train data csv file and specify the parameters d and n, with the best depth and number of neighbors respectively. 
 7) Running the method plot_tree() from the star_data class will automatically split your train data into further train and faux test data, train the decision tree model, and visualize the branches.
-8) Running the method fit_knn() from the star_data class will automatically split your train data into further train and faux test data and then train the knn algorithm.
-9) Use the all_tree_scores() and all_knn_scores() method in star_data class to print the accuracy scores of your models againist the faux test data in order to check for overfitting. 
-10) Load your test data csv into a pandas dataframe using pd.read_csv('x').
-11) Split your test data into predictor variables and outcome variable using **exoTest.drop(['LABEL'], axis=1)** for the predictor variables and **exoTest['LABEL']** for your outcome variable.
-12) Now insert the predictions your models made about the test data into the test data dataframe using 
+    ![exotree](https://user-images.githubusercontent.com/97067377/158476277-bd47642b-d46a-42bd-b9b1-fc692c24a4e8.jpg)
+
+9) Running the method fit_knn() from the star_data class will automatically split your train data into further train and faux test data and then train the knn algorithm.
+10) Use the all_tree_scores() and all_knn_scores() method in star_data class to print the accuracy scores of your models againist the faux test data in order to check for overfitting. 
+11) Load your test data csv into a pandas dataframe using pd.read_csv('x').
+12) Split your test data into predictor variables and outcome variable using **exoTest.drop(['LABEL'], axis=1)** for the predictor variables and **exoTest['LABEL']** for your outcome variable.
+13) Now insert the predictions your models made about the test data into the test data dataframe using 
   **exoTest.insert(1, "Exoplanet Prediction by Tree", exo_best.fit_tree().predict(X1))**
   **exoTest.insert(2, "Exoplanet Prediction by Knn", exo_best.fit_knn().predict(X1))**
 13) Now return the test data dataframe to view the predictions. 
