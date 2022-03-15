@@ -17,7 +17,7 @@ Packages are listed at top of py file, copy and paste them to run.
 **Scope and Limitations:**
 The current data uploaded using the csv file contains 3197 recordings of light intensities for each star. Because of the sheer amount of obsverations, it would take a long time for a new star to be added to the data. Currently, our class depends on every star having the same number of observations, so a future expansion to our class could add a parameter that changes the number of observations considered. Another potential extension is to add a method that visualizes the Knn model or the differences between predictions of the two models.
 
-Instructions:
+**Instructions:**
 1) Load data file containing star light data. Each star should have 3197 instances where its light intensity is recorded. 
 2) Load the train data csv file as an instance of the star_data class.
 3) Run plot_tree_scores (depths = ), with depths being a numpy array of different depths to help find the best depth for the decision tree model. Default is 1 through 10.
