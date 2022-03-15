@@ -1,5 +1,5 @@
 
-## Project Name: Finding Exoplanets using Star Flux Data from NASA
+## Using Decision Trees and KNN to Find Exoplanets using NASA Star Flux Data 
 ***Samantha Wong, Megha Velakacharla, Lumyah Habib***
 
 
