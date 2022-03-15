@@ -1,9 +1,9 @@
 
 ## Project Name: Finding exoplanets using Star Flux data from NASA
 
-Group Members: Samantha Wong, Megha Velakacharla, Lumyah Habib
+**Group Members: Samantha Wong, Megha Velakacharla, Lumyah Habib**
 
-Description: 
+**Description:**
 
 This project is about finding exoplanets in deep space using recorded changes in flux
 or light intensity for 5087 stars. To do so, we will implement binary classification to classify stars with and without orbiting exoplanets. The input used to train our machine learning algorithm is a csv data set from Kaggle that documents 5087 stars, their binary classification, and 9 different time periods where their flux was recorded. The other input is the test data set containing another 570 stars with their recorded flux values, but without a classification. Our class contains a method that will analyze this test set of 570 stars and find the stars that have orbiting exoplanets using a decision tree and a k-nearest neighbor algorithm. Our class also contains a method that will compare the scores of different depths of the decision tree and number of neighbors considered in the KNN algorithm to find the best parameters for the models. Ultimately, the output will be the test data set with the addition of their binary classification.
@@ -11,8 +11,11 @@ or light intensity for 5087 stars. To do so, we will implement binary classifica
 Data set link: https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data
 This is a public dataset from Kaggle containing cleaned data from observations made by the NASA Kepler space telescope. There are 68 notebooks of code, using different methods of machine learning to analyze the data.
 
-Package Installation:
+**Package Installation:**
 Packages are listed at top of py file, copy and paste them to run.
+
+**Scope and Limitations:**
+The current data uploaded using the csv file contains 3197 recordings of light intensities for each star. Because of the sheer amount of obsverations, it would take a long time for a new star to be added to the data. Currently, our class depends on every star having the same number of observations, so a future expansion to our class could add a parameter that changes the number of observations considered. Another potential extension is to add a method that visualizes the Knn model or the differences between predictions of the two models.
 
 Instructions:
 1) Load data file containing star light data. Each star should have 3197 instances where its light intensity is recorded. 
@@ -41,7 +44,7 @@ Instructions:
 13) Now insert the predictions your models made about the test data into the test data dataframe using 
   **exoTest.insert(1, "Exoplanet Prediction by Tree", exo_best.fit_tree().predict(X1))**
   **exoTest.insert(2, "Exoplanet Prediction by Knn", exo_best.fit_knn().predict(X1))**
-13) Now return the test data dataframe to view the predictions. 
+13) Now return the test data dataframe to view the predictions. A 1 in either of the prediction columns means an exostar is unconfirmed, while a 2 is a confirmation of an exostar.
     
 
 ![exoDF](https://user-images.githubusercontent.com/97067377/158475988-40ada8d3-8208-45ea-8e0e-b6ca7a983476.jpg)
