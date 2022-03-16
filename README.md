@@ -56,5 +56,9 @@ The current data uploaded using the csv file contains 3197 recordings of light i
 
 
 **Software Demo Video:**
-https://user-images.githubusercontent.com/97066689/158502735-36f31482-abd6-4974-a268-327e8b8bcd6f.mp4
+
+https://user-images.githubusercontent.com/97066689/158503135-fb490c2d-8b00-4011-adcc-ca22a72720ea.mp4
+
+
+ 
 
