@@ -5,7 +5,7 @@
 
   <img src=https://user-images.githubusercontent.com/97067377/158479416-0326f0d0-ce97-4ef2-9953-b000126180b0.jpg width=1000/>
 
-
+This project is licensed under the terms of the MIT license.
 
 **Description:**
 
@@ -52,7 +52,6 @@ The current data uploaded using the csv file contains 3197 recordings of light i
     
 
 ![exoDF](https://user-images.githubusercontent.com/97067377/158475988-40ada8d3-8208-45ea-8e0e-b6ca7a983476.jpg)
-
 
 
 
